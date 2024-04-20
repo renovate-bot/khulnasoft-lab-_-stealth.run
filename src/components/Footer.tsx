@@ -5,7 +5,11 @@ const Footer = () => {
     <>
       <footer className="footer p-10 bg-base-200 text-base-content">
         <aside>
-          <img className="w-12 h-12" src={StealthLogo} alt="Stealth on Docker" />
+          <img
+            className="w-12 h-12"
+            src={StealthLogo}
+            alt="Stealth on Docker"
+          />
           <p>
             StealthOS
             <br />
@@ -16,7 +20,10 @@ const Footer = () => {
         </aside>
         <nav>
           <h6 className="footer-title">Resources</h6>
-          <a className="link link-hover" href="https://stealthos.khulnasoft.com/docs/">
+          <a
+            className="link link-hover"
+            href="https://stealthos.khulnasoft.com/docs/"
+          >
             Documentation
           </a>
           <a
@@ -25,22 +32,37 @@ const Footer = () => {
           >
             Community
           </a>
-          <a className="link link-hover" href="https://stealthos.khulnasoft.com/blog/">
+          <a
+            className="link link-hover"
+            href="https://stealthos.khulnasoft.com/blog/"
+          >
             Blog
           </a>
         </nav>
         <nav>
           <h6 className="footer-title">About Us</h6>
-          <a className="link link-hover" href="https://stealthos.khulnasoft.com/team/">
+          <a
+            className="link link-hover"
+            href="https://stealthos.khulnasoft.com/team/"
+          >
             Team
           </a>
-          <a className="link link-hover" href="https://stealthos.khulnasoft.com/partners/">
+          <a
+            className="link link-hover"
+            href="https://stealthos.khulnasoft.com/partners/"
+          >
             Partners
           </a>
-          <a className="link link-hover" href="https://stealthos.khulnasoft.com/donate/">
+          <a
+            className="link link-hover"
+            href="https://stealthos.khulnasoft.com/donate/"
+          >
             Donate
           </a>
-          <a className="link link-hover" href="https://stealthos.khulnasoft.com/careers/">
+          <a
+            className="link link-hover"
+            href="https://stealthos.khulnasoft.com/careers/"
+          >
             Careers
           </a>
         </nav>

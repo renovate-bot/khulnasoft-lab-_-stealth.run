@@ -80,7 +80,10 @@ const Navbar = ({ isFixed }: NavbarProps) => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn text-accent" href="https://stealthos.khulnasoft.com/download/">
+        <a
+          className="btn text-accent"
+          href="https://stealthos.khulnasoft.com/download/"
+        >
           Download StealthOS
         </a>
       </div>

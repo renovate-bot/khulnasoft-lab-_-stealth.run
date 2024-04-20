@@ -40,7 +40,10 @@ const WorkspaceSection = () => {
                 read here
               </a>
               &nbsp;or&nbsp;
-              <a href="https://stealthos.khulnasoft.com/team/" className="link-accent">
+              <a
+                href="https://stealthos.khulnasoft.com/team/"
+                className="link-accent"
+              >
                 email us
               </a>
               !
